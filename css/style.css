@@ -8,9 +8,25 @@ body
 
 #block_page
 {
+	position: relative;
 	width: 90%;
 	margin: auto;
 }
+
+#liseret
+{
+	background-color: #966b3bfb;
+	opacity: 0.5;
+    height: 65em;
+    width: 4%;
+    position: absolute;
+    float: left;
+		margin-left: -6%;
+		margin-top:-2%; 
+		
+}
+
+
 
 h1 {
     font-family: 'RomanticBeach'
