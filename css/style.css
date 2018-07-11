@@ -6,6 +6,12 @@ body
     background-image: url("../images/fond.jpg");
 }
 
+#block_page
+{
+	width: 90%;
+	margin: auto;
+}
+
 h1 {
     font-family: 'RomanticBeach'
 }
@@ -29,9 +35,9 @@ h1 /* Utilisation de la police qu'on vient de définir sur les titres */
 
 #poste 
 {
-    color: blue;
     font-weight: bold;
-    font-size: 1.5em;
+		font-size: 1.5em;
+		color:  #966b3bfb;
     
 }
 
@@ -50,14 +56,34 @@ footer
     text-align: center;
 }
 
-section
-{
-	display: flex;
-	flex-direction: column;
-}
+
 
 #conteneur
 {
 	display: flex;
 	justify-content: space-between;
+}
+
+#divers
+{
+	display: flex;
+	justify-content: flex-start;
+}
+
+
+#conteneur_langage
+{
+	display: flex;
+	justify-content: flex-start;
+	margin-right: 70%;
+}
+
+#hobbies
+{
+	margin-left: -19%;
+}
+
+h2
+{
+	color: #966b3bfb;
 }
