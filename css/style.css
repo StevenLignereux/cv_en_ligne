@@ -1,3 +1,4 @@
+/* Centrage de la page  */
 
 
 body
@@ -20,7 +21,7 @@ h1 {
 
 h1 /* Utilisation de la police qu'on vient de définir sur les titres */
 {
-    font-family: 'cac_champagneregular', Arial, serif;
+    font-family: Arial, serif;
 }
 
 
@@ -38,9 +39,10 @@ img
 {
     float: right;
     border-radius: 1.5em;
-    border: 0.5em dashed black;
-    box-shadow: 6px 6px 6px black
-    
+    border: 0.2em solid black;
+    box-shadow: 3px 3px 3px black;
+		margin-top: -3.9em;
+		
 }
 
 footer
@@ -48,7 +50,14 @@ footer
     text-align: center;
 }
 
+section
+{
+	display: flex;
+	flex-direction: column;
+}
 
-h2 {
-    
+#conteneur
+{
+	display: flex;
+	justify-content: space-between;
 }
