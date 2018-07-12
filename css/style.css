@@ -17,7 +17,7 @@ body
 {
 	background-color: #966b3bfb;
 	opacity: 0.5;
-    height: 65em;
+    height: 70em;
     width: 4%;
     position: absolute;
     float: left;
@@ -130,3 +130,71 @@ td
 {
     text-align: center;
 }
+
+#project 
+{
+    text-align: center;
+}
+
+
+/* Responsive */
+@media all and (max-device-width: 1024px)
+{
+	#block_page 
+	{
+		width: auto;
+	}
+
+	h2 
+	{
+		text-align: center;
+	}
+	#liseret 
+	{
+		display: none;
+	}
+
+	#conteneur
+	{
+		flex-direction: column;
+	}
+
+	tr
+	{
+		text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 5em;
+	}
+
+	#divers 
+	{
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+	}
+
+	#conteneur_langage
+	{
+		text-align: center;
+		margin-left: 5em;
+	}
+
+	#project a 
+	{
+		display: flex;
+		flex-direction: column;
+	}
+
+	img 
+	{
+		width: 25%;
+	}
+
+	h1 
+	{
+		font-size: 25px;
+	}
+	
+}
+
