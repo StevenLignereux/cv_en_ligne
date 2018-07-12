@@ -69,6 +69,7 @@ img
 
 footer
 {
+    margin-top: 2.5em;
     text-align: center;
 }
 
@@ -102,4 +103,30 @@ footer
 h2
 {
 	color: #966b3bfb;
+}
+
+
+table
+{
+   
+    text-align: center;
+}
+tr
+{
+    display: flex;
+    justify-content: space-around;
+    margin-right: -20%;
+    margin-left: -35%;
+    
+    
+}
+
+td
+{
+    padding: 5%;
+}
+
+#skills
+{
+    text-align: center;
 }
